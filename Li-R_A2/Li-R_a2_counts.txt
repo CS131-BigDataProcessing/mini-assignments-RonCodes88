@@ -1,0 +1,4 @@
+  50  466 2346 goodluck.txt
+50 stands for the line count
+466 stands for word count
+2346 stands for character count

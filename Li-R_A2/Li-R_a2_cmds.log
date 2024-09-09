@@ -1,0 +1,153 @@
+    1  passwd
+    2  ping 172.20.25.9
+    3  wget www.github.com
+    4  ls
+    5  git@github.com:CS131-BigDataProcessing/CS131_fa24_datafiles.git
+    6  git clone git@github.com:CS131-BigDataProcessing/CS131_fa24_datafiles.git
+    7  git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles.git
+    8  git clone https://github.com/RonCodes88/a1-collab-RonCodes88.git
+    9  git branch RonCodes88-colab
+   10  git init
+   11  git branch RonCodes88-colab
+   12  git checkout RonCodes88-colab
+   13  git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles.git
+   14  ls 
+   15  ls -l
+   16  rm -rf CS131_fa24_datafiles
+   17  ls
+   18  git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles.git
+   19  cd ..
+   20  cd CS131_fa24_datafiles
+   21  ls
+   22  cd rlifa24
+   23  cd CS131_fa24_datafiles
+   24  cd ..
+   25  rm -rf CS131_fa24_datafiles
+   26  ls
+   27  git remote -v
+   28  cd a1-collab-RonCodes88
+   29  git remote -v
+   30  cd ..
+   31  ls -l
+   32  hi
+   33  pwd
+   34  hi
+   35  clear
+   36  vi
+   37  vi test.txt
+   38  ls
+   39  cd testdirectory
+   40  ls
+   41  clear
+   42  cd ..
+   43  ls -l
+   44  man chmod
+   45  cd testdirectory
+   46  chmod 764 test.txt
+   47  ls -l
+   48  cat test.txt
+   49  ls -l
+   50  pwd
+   51  cd ..
+   52  pwd
+   53  cd FA24_CS141_Jesscia
+   54  cd FA24_CS141_Jessica
+   55  cd FA24_CS131_Jessica
+   56  cd rlifa24
+   57  pwd
+   58  ls
+   59  ls -l
+   60  nuke this computer
+   61  clear
+   62  nuke this computer
+   63  cd text.txt
+   64  file
+   65  mkdir testdirectory
+   66  cd testdirectory
+   67  ls
+   68  cd ..
+   69  ls
+   70  cd testdirectory
+   71  filke
+   72  file
+   73  ls ..\
+   74  ls ..
+   75  ls ../a1-collab-RonCodes88
+   76  ls ../test.txt
+   77  man tar
+   78  tar --help
+   79  man
+   80  man -A
+   81  man --help
+   82  ls -t
+   83  ls -T
+   84  ls -h
+   85  cd ..
+   86  ls -h
+   87  ls -t
+   88  ls -l
+   89  man
+   90  man -F
+   91  man --help
+   92  man ls
+   93  ls -l
+   94       --no-justification,                              --nj   turn off justifica                                                                                                             
+   95  ls
+   96  cd test.txt
+   97  test.txt
+   98  clear
+   99  ls
+  100  mkdir testdirectory2
+  101  cd testdirectory
+  102  ls
+  103  cd ..
+  104  mv test.txt testdirectory
+  105  cd testdirectory
+  106  ls
+  107  cp test.txt ../testdirectory2
+  108  cd ..
+  109  cd testdirectory2
+  110  ls
+  111  cd ..
+  112  ls
+  113  c
+  114  clc
+  115  clr
+  116  clear
+  117  ls
+  118  cd testdirectory
+  119  ls
+  120  vi test.txt
+  121  git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles.git
+  122  cd ..
+  123  cd testdirectory
+  124  ls
+  125  cd ..
+  126  git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles.git
+  127  cd testdirectory
+  128  rm -rf CS131_fa24_datafiles
+  129  ls
+  130  cd ..
+  131  ls
+  132  cd CS131_fa24_datafiles
+  133  cd Lec02
+  134  vi goodluck.txt
+  135  wc goodluck.txt
+  136  wc -l goodluck.txt
+  137  echo `pwd`
+  138  echo "pwd"
+  139  `pwd`
+  140  echo $HOME
+  141  grep -o "\bwor\w*" goodluck.txt
+  142  grep -o "\w*dred\w*" file.txt
+  143  grep -o "\w*dred\w*" goodluck.txt
+  144  grep -x "Good luck, babe" file.txt
+  145  grep -x "Good luck, babe" goodluck.txt
+  146  grep -x "Good luck, babe " goodluck.txt
+  147  grep "Good luck, babe" goodluck.txt
+  148  wc goodluck.txt
+  149  wc -l goodluck.txt
+  150  wc goodluck.txt > Li-R_a2_counts.txt
+  151  ls
+  152  vi Li-R_a2_counts.txt
+  153  history > Li-R_a2_cmds.log
