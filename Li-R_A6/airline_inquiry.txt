@@ -1,0 +1,29 @@
+Ronald Li
+CS131 A6
+
+1. What are all the airlines? 
+awk -F, '{print $4}' airline_stats.csv | sort | uniq
+"Alaska"
+"American"
+"Delta"
+"Jet Blue"
+"Southwest"
+"United"
+
+2.a. Has a carrier delay greater than 10 and print airline names (alphabetically. Hint* pipe input into sort)
+awk -F, '$1 > 10 {print $4}' airline_stats.csv | sort | uniq
+"Alaska"
+"American"
+"Delta"
+"Jet Blue"
+"Southwest"
+"United"
+
+2.b. Has a carrier delay greater than a certain threshold of 15? Use -v to pass in a value that is set to 'Threshold = 15' 
+awk -v Threshold=15 -F, '{ if ($1 > Threshold) print $4}' airline_stats.csv | sort | uniq
+"Alaska"
+"American"
+"Delta"
+"Jet Blue"
+"Southwest"
+"United"
