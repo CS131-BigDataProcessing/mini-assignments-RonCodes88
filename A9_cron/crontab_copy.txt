@@ -1,0 +1,8 @@
+# 1. Set up a Daily File Cleanup Using Cron
+0 2 * * * rm -rf /mnt/scratch/FA24_CS131_Jessica/rlifa24/temp/*
+
+# 2. Schedule a Weekly System Backup with Cron
+0 3 * * 0 tar -czf /path/to/home/user/backups/backup_$(date +\%Y\%m\%d).tar.gz /path/to/home/user
+
+# 3. Write command line for sending a Disk Usage Report using Cron
+30 8 * * * df -h | mail -s "Disk Usage Report" user@example.com
