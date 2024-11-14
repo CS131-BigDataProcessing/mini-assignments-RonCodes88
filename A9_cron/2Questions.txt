@@ -1,0 +1,8 @@
+a. What other types of tasks (provide 2) could benefit from automation using cron or at?
+
+I think that data management such as running database cleanup queries and maintaining the system such as disk cleanup/backups are really useful by using cron automation. 
+
+
+b. What potential risks are there with poorly managed automated tasks, and how can you avoid them (e.g., ensuring backups work correctly)?
+
+Poorly managed automated tasks can overwrite important data, create security vulnerabilities, and create unintended resource consumption. To prevent and avoid these issues, the best way is to proactively and monitor these automated tasks. So that in the long run, the system is stable and well-maintained.
